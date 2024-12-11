@@ -5,4 +5,12 @@
 .logo {
   display: block;
   margin: auto;
+  width: 30%;
+}
+div > form {
+  text-align: center;
+}
+input {
+  padding: 20px 270px;
+  border-radius: 40px;
 }
