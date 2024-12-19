@@ -5,17 +5,25 @@ a {
 a:hover {
   text-decoration: underline;
 }
+h1 {
+  color: red;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+input {
+  width: 70%;
+}
 .parent {
   position: relative;
   width: 100%; /* Adjust width as needed */
   height: 100px;
   margin-left: 25%;
 }
-.input-container {
+.form-container {
   position: relative;
   width: 300px;
 }
-.input-container img {
+.form-container img {
   position: absolute;
   top: 50%;
   left: 10px;
@@ -23,7 +31,17 @@ a:hover {
   width: 20px;
   height: 20px;
 }
-input {
+.input-container {
+  display: flex;
+  align-items: center; /* Ensures both input and label are vertically aligned */
+  gap: 8px; /* Adds space between the input and the label */
+  margin-bottom: 10px; /* Adds space between rows */
+}
+.input-container label {
+  width: 200px; /* Set a fixed width for all labels */
+  margin-right: 10px; /* Space between label and input */
+}
+.input {
   padding: 20px 270px;
   border-radius: 40px;
   border: 1px transparent solid;
