@@ -12,12 +12,27 @@ h1 {
 }
 input {
   width: 70%;
+  color: black;
+}
+p {
+  font-weight: 600;
+  font-size: 20px;
+}
+nav {
+  margin-bottom: 40px;
+}
+button {
+  margin-top: 20px;
+  margin-right: 170px;
+  float: right;
+  background-color: blue;
+  color: white;
 }
 .parent {
   position: relative;
   width: 100%; /* Adjust width as needed */
   height: 100px;
-  margin-left: 25%;
+  margin-left: 32%;
 }
 .form-container {
   position: relative;
@@ -30,6 +45,7 @@ input {
   transform: translateY(-50%);
   width: 20px;
   height: 20px;
+  text-align: center;
 }
 .input-container {
   display: flex;
@@ -46,6 +62,7 @@ input {
   border-radius: 40px;
   border: 1px transparent solid;
   box-shadow: 0px 9px 19px rgba(83, 75, 75, 0.5); /* White shadow */
+  color: black;
 }
 .heading {
   width: 90px;
@@ -64,4 +81,8 @@ input {
   display: block;
   margin: auto;
   width: 30%;
+}
+.submit {
+  border-radius: 20px;
+  padding: 10px 30px;
 }
